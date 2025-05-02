@@ -1,0 +1,55 @@
+name: CoffeeShop
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.8.1
+  firebase_auth: ^5.3.4
+  cloud_firestore: ^5.5.1
+  awesome_dialog: ^3.2.1
+  carousel_slider: ^5.0.0
+  firebase_database: ^11.2.0
+  uuid: ^4.5.1
+  get: ^4.7.2
+  google_fonts: ^6.2.1
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.2
+  flutter_native_splash: ^2.4.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/background.jpg"
+  adaptive_icon_foreground: "assets/images/background.jpg"
+  adaptive_icon_background: "#E57734"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+
+flutter_native_splash:
+  background_image: "assets/images/background.jpg"
+  android: true
+  ios: true
+  web: false
+  fullscreen: true
+  android_12:
+    image: "assets/images/background.jpg"
+    icon_background_color: "#E57734"
+  
